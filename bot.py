@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.INFO)
 bot = Bot(token=config.bot_token.get_secret_value())
 # Диспетчер
 dp = Dispatcher()
-
+#hello world
 # Хэндлер на команду /start
 @dp.message(Command("start"))
 async def cmd_start(message: types.Message):
